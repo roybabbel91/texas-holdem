@@ -1,4 +1,9 @@
 require: rubocop-rails
 
+Metrics/MethodLength:
+  Enabled: true
+  Exclude:
+    - db/migrate/*
+
 Style/Documentation:
   Enabled: false
